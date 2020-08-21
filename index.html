@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Password Creator</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="main-block">
+
+		<div class="select-pass-length">
+			<div>Выберите длину пароля</div>
+			<br>
+			<div class="select-pass-blc">
+				<input type="radio" name="slc-pass-len" id="one-radio">
+				<label for="one-radio">4</label>
+
+				<input type="radio" name="slc-pass-len" id="two-radio">
+				<label for="two-radio">6</label>
+
+				<input type="radio" name="slc-pass-len" id="the-radio">
+				<label for="the-radio">8</label>
+
+				<input type="radio" name="slc-pass-len" id="fou-radio">
+				<label for="fou-radio">10</label>
+
+				<input type="radio" name="slc-pass-len" id="fiv-radio">
+				<label for="fiv-radio">12</label>
+
+				<input type="radio" name="slc-pass-len" id="six-radio">
+				<label for="six-radio">14</label>
+			</div>
+		</div>
+
+		<br>
+		<div class="select-pass-bukva">
+			<div>Буквы в пароле ?</div>
+			<br>
+			<div class="select-pass-bukva-blc">
+				<input type="radio" name="slc-pass-bkv" id="one-one-radio">
+				<label for="one-one-radio">Да</label>
+
+				<input type="radio" name="slc-pass-bkv" id="two-two-radio">
+				<label for="two-two-radio">Нет</label>
+			</div>
+		</div>
+
+		<br>
+		<div class="select-pass-upperCase">
+			<div>Верхний регистр у букв ?</div>
+			<br>
+			<div class="select-pass-upperCase-blc">
+				<input type="radio" name="slc-pass-upper" id="upper-one-radio">
+				<label for="upper-one-radio">Да</label>
+
+				<input type="radio" name="slc-pass-upper" id="upper-two-radio">
+				<label for="upper-two-radio">Нет</label>
+			</div>
+		</div>
+
+		<br>
+		<button id="start_generate">Generate</button>
+		<br>
+		<br>
+		<div id="result"></div>
+		<br>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
